@@ -1,4 +1,4 @@
-package com.example.about
+package com.example.cc17_3f_awaled_act6
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
@@ -8,7 +8,6 @@ import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.cc17_3f_awaled_act6.Adapter.Adapter
-import com.example.cc17_3f_awaled_act6.R
 import com.example.cc17_3f_awaled_act6.model.AboutMeItem
 
 
@@ -65,7 +64,7 @@ class MainActivity : AppCompatActivity() {
         val day6 = AboutMeItem(
             R.drawable.i6,
             "Gesture Drawing",
-            "Create quick sketches (1-2 mins) of people or animals in different poses.",
+            "Create quick sketches (1-2 min.) of people or animals in different poses.",
             "Day 6"
         )
 
