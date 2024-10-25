@@ -15,7 +15,7 @@ class Adapter(private val data: List<AboutMeItem>) :
     class AboutMeItemViewHolder(val row: View) : RecyclerView.ViewHolder(row) {
         val aboutMeImageView: ImageView = row.findViewById(R.id.picture)
         val aboutMedayTextView: TextView = row.findViewById(R.id.day)
-        val aboutMedescTextView: TextView = row.findViewById(R.id.desc)
+        val aboutMedescTextView: TextView = row.findViewById(R.id.description)
         val aboutMetitleTextView: TextView = row.findViewById(R.id.title)
     }
 
@@ -32,7 +32,7 @@ class Adapter(private val data: List<AboutMeItem>) :
         val item = data[position]
         holder.aboutMeImageView.setImageResource(item.picture)
         holder.aboutMedayTextView.text = item.day
-        holder.aboutMedescTextView.text = item.desc
+        holder.aboutMedescTextView.text = item.description
         holder.aboutMetitleTextView.text = item.title
     }
 }
